@@ -1,0 +1,51 @@
+* {
+  box-sizing: border-box;
+}
+
+:focus {
+  border: 3px, solid, red;
+}
+
+body {
+  background-image: linear-gradient(to right, rgb(242, 204, 38), rgb(223, 79, 0));
+}
+
+.search-container {
+  display: inline-block;
+  position: relative;
+  left: 45%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+input {
+  border: unset;
+  background-image: linear-gradient(to right, rgb(242, 179, 67), rgb(236, 151, 57));
+  padding: 0.75em;
+  color: black;
+  border-bottom: 2px solid red;
+}
+
+ul {
+  list-style: none;
+  padding: unset;
+  margin: unset;
+  position: absolute;
+  width: 100%;
+  background-image: linear-gradient(to right, rgb(242, 179, 67), rgb(236, 151, 57));
+  border-radius: 3px;
+}
+
+ul li button {
+  border: unset;
+  background: unset;
+  list-style: none;
+  padding: 0.75em;
+}
+
+ul li button:hover {
+  background-color: rgb(223, 79, 0);
+  cursor: pointer;
+  width: 100%;
+  border-radius: 3px;
+}
